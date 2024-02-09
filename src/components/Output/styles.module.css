@@ -1,0 +1,23 @@
+.Output {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.Output span {
+  display: block;
+}
+
+.Output .result {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.Output .bmi {
+  font-size: 34px;
+  text-align: center;
+}
