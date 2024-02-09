@@ -1,0 +1,30 @@
+.Form .InputContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.Form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.Form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.Form button:hover {
+  opacity: .8;
+}
